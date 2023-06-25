@@ -37,7 +37,7 @@ li {
 ul {
     display: flex;
     margin-right: 75px;
-    margin-top: 6px;
+    padding-top: 6px;
 
 }
 
