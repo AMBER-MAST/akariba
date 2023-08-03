@@ -1,195 +1,433 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 450px){
-    html {
-        font-family: HiraKakuProN-W6;
-    }
+
+
     .wrapper {
-        width: 100%;
+        max-width: 350px;
         margin: 0 auto;
-        padding: 0 4%;
+        padding: 7% 0%;
     }
 
     .grid {
         display: grid;
-        gap: 26px;
     }
 
 
-    /*ヘッダー--------------------------------------*/
-    nav ul {
-        display: none;
+    /*ヘッダー---------------------------------------------------------------*/
+    .main-logo {
+        width: 65px;
+        height: 30px;
+        margin: 10px 0 0 10px;
     }
 
-    .header-top {
-        height: 50px;
+    .header {
+        justify-content: flex-start;
         position: fixed;
         left: 0;
         top: 0;
-        z-index: 1;
+        z-index: 10;
+        height: 45px;
     }
 
-    .main-logo {
-        width:100px;
-        height: 50px;
+    .list li {
+        margin: 10px 10px 0 0;
+        font-size: 1px;
+        width: 30px;
     }
 
-    .main-logo {
-        margin-left: 10px;
+    .list {
+        margin-left: 60px;
     }
 
-    /* トップ---------------------------------------*/
-    header {
-        background-size: contain;
+
+
+
+
+    /*HOME-----------------------------------------------------*/
+    .top-image {
+        width: 300px;
+        height: 44px;
         margin-top: 40px;
-
     }
 
-    .logo-msg h1 {
-        padding-top: 60px;
-        font-size: 20px;
-        padding-left: 140px;
+    .top-logo {
+        width: 50px;
+        height: 50px;
+        margin-top: 80px;
     }
 
-    .logo-msg p {
-        text-align: center;
-        padding-top: 65px;
-        font-size: 18px;
+
+    #video-area {
+        max-width: 350px;
+        height: 197px;
     }
 
-    span {
-        font-size: 19px;
+    #video {
+        height: 197px;
+        max-width: 350px;
     }
 
-    .logo-msg {
-        padding-bottom: 0px;
-        padding-left: 0;
+
+    .home-comment p {
+        padding: 10px 20px;
+        font-size: 15px;
     }
 
-    /*タイトル----------------------------*/
+    #home {
+        padding-bottom: 30px;
+    }
 
 
+    /*タイトル-------------------------------------------------------------*/
     .title {
-        margin: 65px 0px 10px 0;
-        font-size: 14px;
-    }
-
-
-
-
-
-    /*サービス内容----------------------------------*/
-    .push-img {
-        height: 120px;
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .service-item {
-        width: 100%;
-    }
-
-    .service-item h3 {
-        font-size: 20px;
-    }
-    
-    .service-item p {
-        font-size: 14px;
-        padding: 0 5px 10px 5px;
-    }
-
-    .service-comment {
-        font-size: 1rem;
-    }
-
-
-    /*スタッフ紹介--------------------------------------------*/
-    .profile-cat img {
-        height: 240px;
-        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 35px;
         
     }
 
-    .profile-comment h2 {
-        font-size: 20px;
-        margin-bottom: 5px;
-        margin-top: 0;
-        text-align: center;
+    .title h2 {
+        font-size: 25px;
     }
 
-    .profile-comment p {
-        font-size: 14px;
-        margin: 0 auto;
+
+    /*ボタン------------------------------------------------------------------*/
+    .btn-form {
+        font-size: 19px;
+        padding: 5px 5px;
+        border: 4px groove #ffb75a;
     }
 
-    .profile-contents p {
-        font-size: 17px;
+    .btn-form:hover {
+        border: 4px groove #e1abab;
     }
 
-    /*料金---------------------------------------------------*/
+
+
+
+
+    /*サービス内容------------------------------------------------------------*/
+
+    .box {
+        width: 250px;
+        height: 230px;
+        margin: 0;
+    }
+
+    .image-box {
+        padding: 0 50px;
+    }
+
+    
+
+    .image02 {                 /*看護*/
+        width: 220px;
+        height: 230px;
+        box-shadow: -20px -20px 3px #eb8e72;
+    }
+    .nurse {
+        margin: 20px 0;
+    }
+    .nurse p {
+        font-size: 40px;
+    }
+
+    .image04 {                   /*リハビリ*/
+        width: 220px;
+        height: 230px;
+        box-shadow: 20px 20px 3px #91caab;
+    }
+    .riha p {
+        font-size: 35px;
+        bottom: 0;
+        right: 0;
+    }
+
+
+
+
+
+    /*料金内容---------------------------------------------------------*/
+    summary {
+        font-size: 0;
+        width: 90%;
+        padding: 12px 15px;
+    }
+
+    .summary01:before {
+        font-size: 16px;
+        content: '要支援認定の方　　　　　';
+    }
+    .summary02:before {
+        font-size: 16px;
+        content: '要介護認定の方　　　　　';
+    }
+    .summary03:before {
+        font-size: 16px;
+        content: '介護保険サービス加算料金';
+    }
+    .summary04:before {
+        font-size: 16px;
+        content: '医療保険利用の方　　　　';
+    }
+    .summary05:before {
+        font-size: 16px;
+        content: '医療保険サービス加算料金';
+    }
+
+    summary::after {
+        font-size: 16px;
+        margin-left: 30px;
+    }
+
     .table-scroll {
         overflow-x: auto;
-        white-space: nowrap;      
+        white-space: nowrap; 
     }
 
-    .price-title {
-        margin-top: 32px;
+
+
+
+
+
+    /*あかりばについて------------------------------------------------------*/
+    .group {
+        display: flex;
+    }
+
+
+    .box02 {                     /*利用者数*/
+        width: 180px;
+        height: 180px;
+    }
+    .box02 img {
+        width: 180px;
+        height: 180px;
+    }
+    .box02 p {
+        font-size: 25px;
+        top: 40px;
+        left: 40px;
+    }
+    .count-size {
+        font-size: 50px;
+    }
+
+
+    .box03 {
+        width: 140px;
+        height: 140px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    .box03 img{
+        width: 140px;
+        height: 140px;
+    }
+    .box03 p {
         font-size: 18px;
+        top: 30px;
+        left: 30px;
     }
 
 
-    /*採用情報--------------------------------------------------*/
-    .recruit-access p {
-        width: 100%;
-        font-size: 0.8rem;
+
+    .box04 {
+        width: 350px;
+        padding: 0 25px;
+    }
+    .image07 {               /*外観*/
+        width: 300px;
+        height: 200px;
+        
+    }
+    
+
+
+
+    /* あいさつ----------------------------------------------------------*/
+    .greet {
+        padding: 0;
     }
 
-    .recruit-main p {
-        font-size: 0.9rem;
-    }
 
-    /*アクセス--------------------------------------------------*/
-    .access-address {
-        line-height: 22px;
-        margin-left: 0;
-        text-align: center;
-    }
 
-    .access-address h3 {
+
+    .box05 {                 /*福西さん*/
+        width: 350px;
+        height: 300px;   
+        margin-bottom: 25px;
+    }
+    .chiefsan {
+        width: 160px;
+        height: 130px;
+    }
+    .box05 h2 {
+        top: 10px;
+        left: 15px;
         font-size: 20px;
     }
-
-    .access-address p {
-        font-size: 17px;
+    .box05 p {
+        top: 43px;
+        left: 15px;
+        font-size: 0%;
+    }
+    .box05 p::before {
+        font-size: 15px;
+        content: 'あかりばを創設した理由の一つに「しっかり\Aと質の良いサービスが行き渡るステーション\Aを作りたい」'
+                'という想いがあります。ご利用\A者様はもちろん、周りのご家族様や関係事業\A所、'
+                '当ステーションスタッフも含め全ての方\Aの声に耳を傾け、その中から\A生まれるニーズに合わせた\A'
+                'サービスを提供し愛媛の\A地域医療を担っていけるよう\A日々精進していきます。';
+        white-space: pre;
     }
 
-    .access-address img {
+
+    .box06{                   /*牧尾さん*/
+        width: 350px;
+        height: 300px;
+    }
+    .subchief {
+        width: 112px;
+        height: 130px;
+    }
+    .box06 h2{
+        top: 10px;
+        left: 15px;
+        font-size: 20px;
+    }
+    .box06 p {
+        font-size: 0;  
+        top: 43px;
+        left: 18px; 
+    }
+    .box06 p::before{
+        font-size: 15px;
+        content: '日々、リハビリテーションで医療介護に携わ\Aる中で「少子高齢化」や「在宅での看取り」、\A'
+                '「介護業界の人手不足」など社会環境の変化\Aを実感しています。この社会環境の中で、'
+                '利\A用者様の自分らしい暮らしが人生の最期まで\A続けられるように並走していきま\Aす。'
+                '在宅生活を支える集団として、\A他の専門職との連携を図り利用\Aしていただく方の幸せに繋げ\Aていきます。';
+        white-space: pre;
+                 
+    }
+
+
+
+
+
+    /*取り組み----------------------------------------------------------*/
+    .strength-top {
+        width: 300px;
+        height: 105px;
+        margin-bottom: 30px;
+    }
+
+    .strength-item {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .strength-container img {
+        height: 200px;
+        width: 260px;
+    }
+    .strength-container h3 {
+        font-size: 25px;
+        padding: 7px 0;
+    }
+
+
+
+
+
+    /*採用情報---------------------------------------------------------*/
+    .recruite-comment p {
+        font-size: 15px;
+    }
+
+    .member img {
         height: 100px;
-        width: 170px;
-        margin-right: 30px;
-    }
-
-    .access-map {
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    /*sns-------------------------------------------------------*/
-    #sns img{
-        margin-top: 24px;
+        padding-bottom: 0;
     }
 
 
-    #sns p {
-        font-size: 13px; 
+
+
+    /*アクセス--------------------------------------------------------*/
+    .hiroshi {
+        width: 100px;
+        height: 60px;
     }
 
-    /*フッター------------------------------------------------------*/
-    .footer-contents h3{
-        font-size: 13px;
+    .access-address {
+        width: 100%;
     }
 
-    .footer-contents p {
-        font-size: 9px;
+
+    .access01 {
+        height: 315px;
+        width: 100%;
+        margin-bottom: 20px;
     }
+    .access01 h3 {
+        font-size: 18px;
+    }
+    .access01 p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    iframe {
+        width: 100%;
+        aspect-ratio: 16/9; 
+    }
+
+
+
+
+
+    /*広報活動---------------------------------------------*/
+    .wrap {
+        max-width: 450px;
+        padding: 0 20px;
+    }
+
+    .item {
+        margin: 0 10px;
+        width: 80%;
+    }
+
+
+
+
+
+    /*フッター-----------------------------------------------*/
+    .footer {
+        width: 100%;
+        padding: 20px 20px;
+    }
+
+    .footer-title h3 {
+        font-size: 15px;
+    }
+    .footer-title p {
+        font-size: 15px;
+    }
+
+
+
+    /*お問い合わせフォーム---------------------------------------*/
+    form-text h2 {
+        font-size: 20px;
+    }
+    form-text {
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+
 }
