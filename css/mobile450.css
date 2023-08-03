@@ -365,7 +365,7 @@
 
     .access01 {
         height: 315px;
-        width: 100%;
+        max-width: 350px;
         margin-bottom: 20px;
     }
     .access01 h3 {
