@@ -603,15 +603,5 @@ ul {
 
 
 
-/*お問い合わせフォーム------------------------------------------------*/
-input, textarea {
-    border: 2px solid #535353;
-    border-radius: 3%;
-    background-color: white;
-    width: 450px;
-    
-}
-
-
 }
 
