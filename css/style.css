@@ -587,21 +587,7 @@ iframe {
 
 /*フッター-------------------------------------------------------------*/
 .footer {
-    display: flex;
     background-color: #f69454;
     padding: 40px 200px;
-}
-
-li {
-    margin: 5px 0;
-    list-style: none;
-}
-
-ul {
-    margin: 0 100px;
-}
-
-
-
 }
 
