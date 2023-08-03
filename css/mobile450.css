@@ -376,6 +376,10 @@
         line-height: 28px;
     }
 
+    span{
+        color: #340303;
+    }
+
 
     iframe {
         max-width: 350px;
