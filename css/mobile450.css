@@ -367,6 +367,8 @@
         height: 315px;
         max-width: 350px;
         margin-bottom: 20px;
+        border: double 7px #ffe7cc;
+        background-color: #f59165;
     }
     .access01 h3 {
         font-size: 18px;
